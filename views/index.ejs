@@ -1,0 +1,11 @@
+<%- include('header') -%>
+    <div class="">
+      <% for(let i=0;i<heading.length;i++){ %>
+        <div class="post-block">
+          <h1 class="post-heading"><%=heading[i]%></h1>
+          <p class= "post"><%=post[i]%></p>
+        </div>
+      <%}%>
+    </div>
+
+<%- include('footer') -%>
