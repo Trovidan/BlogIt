@@ -15,11 +15,11 @@ body{
 
 a{
   text-decoration: none;
-  color: #edffea;
+  color: #7a4d1d;
 }
 
 a:hover{
-  color: #7a4d1d;
+  color: #0f0;
 }
 
 img{
@@ -31,7 +31,7 @@ img{
 
 #navbar{
   background-color: #75daad;
-  height: 3.5vw;
+  height: 5vw;
   border-bottom: solid;
   border-color: #216353;
   position: relative;
@@ -39,22 +39,29 @@ img{
 }
 #logo{
   font-family: 'Monoton', cursive;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 300;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 100px;
   color: #7a4d1d;
 }
 #navbar-list{
   float:right;
-  margin:0 150px 0 0;
-  padding: 10px 0 0 0;
+  margin:0 70px 0 0;
+  padding: 20px 0 0 0;
 }
 .navbar-list-item{
   list-style-type: none;
   display:inline;
+  font-size: 25px;
   padding: 0 40px 0 20px;
 }
+.nav-link{
+  color: #edffea;
+}
 
+.nav-link:hover{
+  color: #7a4d1d;
+}
 /****************************************************************/
 
 /****************************posts display*******************************/

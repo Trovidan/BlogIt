@@ -1,11 +1,15 @@
-<%- include('header') -%>
-    <div class="">
-      <% for(let i=0;i<heading.length;i++){ %>
-        <div class="post-block">
-          <h1 class="post-heading"><%=heading[i]%></h1>
-          <p class= "post"><%=post[i]%></p>
-        </div>
-      <%}%>
+<%- include('partials/header') -%>
+
+<div class="">
+  <% for(let i=0;i<heading.length;i++){ %>
+  <div class="post-block">
+    <h1 class="post-heading"><%=heading[i]%></h1>
+    <p class="post">
+      <%=post[i].substring(0,100)+" ..."%>
+      <a href="/post/<%=heading[i]%>" name="postID" value=<%=i%> >Read More</a>
+    </p>
+  </div>
+  <%}%>
     </div>
 
-<%- include('footer') -%>
+<%- include('partials/footer') -%>
